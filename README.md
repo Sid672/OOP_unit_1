@@ -12,6 +12,7 @@ int main()
    return 0;
 }
 ```
+![](https://media.giphy.com/media/MeJgB3yMMwIaHmKD4z/giphy.gif)
 ## Program no.2:
 ```C++
 /*Program to covert polar to rectangular coordinate system*/
@@ -41,3 +42,4 @@ void PoltoRec(double r, double angle)
   cout<<"y : "<<y<<"\n";
 }
 ```
+![](https://www.onlinemathlearning.com/image-files/polar-rectangular-coordinates.png)
