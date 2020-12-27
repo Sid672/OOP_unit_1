@@ -1,5 +1,6 @@
 # OOP_unit_1
 To make study more intresting!
+
 It includes programs of unit 1 in OOP 2nd year.
 
 ## Program no.1:
@@ -126,6 +127,32 @@ int main ()
   z.img = x.img + y.img;
   cout<<"Additon of complex no. is\n";
   cout<<z.real<<" + "<<z.img<<"i\n";
+  return 0;
+}
+```
+## Program 5:
+To create user define type name enum is used.
+
+![](https://media.giphy.com/media/NUBp5KcV0PJBe/giphy.gif)
+
+Enumerated type (enumeration) is a user-defined data type which can be assigned some limited values. These values are defined by the programmer at the time of declaring the enumerated type.
+
+![](https://media.geeksforgeeks.org/wp-content/cdn-uploads/Enum-In-C.png)
+
+This image of C program is same for C++ program also.
+
+```C++
+/*Program for using enum*/
+#include<iostream>
+using namespace std;
+
+int main()
+{
+  enum numbers{small, middle = 5, large} a,b;
+  a = middle;
+  b = large;
+  cout<<"a = "<<a<<"\n";
+  cout<<"b = "<<b<<"\n";
   return 0;
 }
 ```
