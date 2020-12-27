@@ -1,4 +1,5 @@
 # OOP_unit_1
+To make study more intresting!
 It includes programs of unit 1 in OOP 2nd year.
 
 ## Program no.1:
@@ -20,6 +21,10 @@ int main()
 #include<math.h>
 #define PI 3.1415
 using namespace std;
+
+//void function can also declare here but it is important to
+//show your main code at the top
+//so  int main() 1st then void func.
 
 int main()
 {
