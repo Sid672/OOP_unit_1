@@ -73,7 +73,7 @@ stud;
 int main()
 {
   cout<<"Enter roll no. : ";
-  //Using structure tag we can access members
+  //Using structure tag and point operator we can access members
   cin>>stud.roll_no;
   cout<<"Enter name : ";
   cin>>stud.name;
@@ -85,4 +85,47 @@ int main()
   cout<<stud.roll_no<<"\t\t"<<stud.name<<"\t"<<stud.marks<<"\n";
 }
 ```
+## Program 4:
+Basically struct is used to define a structure. But when we want to use it we have to use the struct keyword in C++. If we use the typedef keyword, then a new name, we can use the struct by that name, without writing the struct keyword.
 
+![](https://qphs.fs.quoracdn.net/main-qimg-29d5758a788b5325e85d8dc11cac46f9.webp)
+
+##### He is - ....................ChinnaSwami MutuSwami VenuGopala Iyer.
+##### That is why we use typedef
+Typedef are also like nick names provided to data types.
+```C++
+/*Program to represent two complex numbers and addition of complex numbers*/
+#include<iostream>
+using namespace std;
+
+//typedef: used to give name  
+typedef struct complex
+{
+  float real;
+  float img;
+}
+//tag
+C;
+
+int main ()
+{
+  //By using typedef we give new name
+  // like C name is now x, y, z also.
+  C x, y, z;
+  cout<<"Enter real part of first complex no. : ";
+  cin>>x.real;
+  cout<<"Enter imaginary part of first complex no. : ";
+  cin>>x.img;
+  cout<<"Enter real part of second complex no. : ";
+  cin>>y.real;
+  cout<<"Enter imaginary part of second complex no. : ";
+  cin>>y.img;
+  cout<<"First complex no. : "<<x.real<<" + "<<x.img<<"i\n";
+  cout<<"Second complex no. : "<<y.real<<" + "<<y.img<<"i\n";
+  z.real = x.real + y.real;
+  z.img = x.img + y.img;
+  cout<<"Additon of complex no. is\n";
+  cout<<z.real<<" + "<<z.img<<"i\n";
+  return 0;
+}
+```
