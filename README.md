@@ -1,5 +1,5 @@
 # OOP_unit_1
-To make study more intresting. It includes programs of unit 1 in OOP 2nd year.
+It includes programs of unit 1 in OOP 2nd year of SPPU.
 
 ## Program no.1:
 ```C++
