@@ -253,4 +253,41 @@ int main()
   return 0;
 }
 ```
+## Program 8:
+![](https://media.giphy.com/media/odhu1upQGmmNq/giphy.gif)
+![](https://d2h0cx97tjks2p.cloudfront.net/blogs/wp-content/uploads/sites/2/2019/06/Syntax-of-C-Class.jpg)
+```C++
+/* Program to demonstrate the class, access specifiers, data and member functions*/
+#include<iostream>
+using namespace std; 
+
+//class
+class Test
+{
+  private:
+          //data members
+          int a, b, c;
+  public:
+         //member functions.
+         int Add(int a, int b)
+         {
+           c = a + b;
+           return c;
+         }
+
+         void display()
+         {
+           cout<<"Sum = "<<c<<endl;
+         }
+};
+
+int main()
+{
+  Test obj;
+  //access is specific to only public part
+  obj.Add(5, 2);
+  obj.display();
+  return 0;
+}
+```
 
