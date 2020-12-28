@@ -337,3 +337,53 @@ int main()
   return 0;
 }
 ```
+## Program 10:
+![](https://media.giphy.com/media/3oEjI4MMUuv9TZwXCM/giphy.gif)
+```c++
+/*Program to check if the number is prime or not*/
+#include<iostream>
+using namespace std;
+
+class test
+{
+  int n;
+  public:
+        void get()
+        {
+          cout<<"Enter a number: ";
+          cin>>n;
+        }
+        void check()
+        {
+          int flag = 1;
+          for (int i = 2; i < n; i++)
+          {
+            if (n % i == 0)
+            {
+              flag = 0;
+            }
+          }
+
+          if (n == 1)
+          {
+            cout<<"Neither prime nor composite"<<endl;
+          }
+          else if (flag == 1)
+          {
+            cout<<n<<" is prime"<<endl;
+          }
+          else
+          {
+            cout<<n<<" is composite"<<endl;
+          }
+        }
+};
+
+int main()
+{
+  test obj;
+  obj.get();
+  obj.check();
+  return 0;
+}
+```
