@@ -264,6 +264,8 @@ using namespace std;
 //class
 class Test
 {
+  //if we don't use private keyword 
+  //class  by default store data in private
   private:
           //data members
           int a, b, c;
@@ -290,4 +292,48 @@ int main()
   return 0;
 }
 ```
+## Program 9:
+![](https://media.giphy.com/media/7yQgwmG4jmDOl0QrRa/giphy.gif)
+```C++
+/*Program to check the largest number*/
+#include<iostream>
+using namespace std;
 
+class large
+{
+  private:
+          //data members
+          int a, b;
+  public:
+          //function to take input
+          void get()
+          {
+            cout<<"Enter numbers:"<<"\n";
+            cin>>a>>b;
+          }
+          //function to check number
+          void check()
+          {
+            if (a > b)
+            {
+              cout<<a<<" is greater than "<<b<<endl;
+            }
+            else if (b > a)
+            {
+              cout<<b<<" is greater than "<<a<<endl;
+            }
+            else
+            {
+              cout<<"Both are equal"<<endl;
+            }
+          }
+};
+
+int main()
+{
+  large obj;
+  obj.get();
+  obj.check();
+  return 0;
+}
+```
