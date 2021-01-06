@@ -49,6 +49,8 @@ void PoltoRec(double r, double angle)
   cout<<"y : "<<y<<"\n";
 }
 ```
+[Code Link](https://repl.it/@Siddharthsing13/Program-2#main.cpp)
+
 ## Program no.3:
 ![](https://media.geeksforgeeks.org/wp-content/uploads/20190711111618/Structure-In-CPP.jpg)
 
