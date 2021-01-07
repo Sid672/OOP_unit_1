@@ -134,6 +134,8 @@ int main ()
   return 0;
 }
 ```
+[Code Link](https://repl.it/@Siddharthsing13/Program-4#main.cpp)
+
 ## Program 5:
 To create user define type name enum is used.
 
@@ -160,6 +162,7 @@ int main()
   return 0;
 }
 ```
+
 ## Program 6:
 An array in C or C++ is a collection of items stored at contiguous memory locations and elements can be accessed randomly using indices of an array. They are used to store similar type of elements as in the data type must be the same for all elements.
 
