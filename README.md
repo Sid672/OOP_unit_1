@@ -88,6 +88,8 @@ int main()
   cout<<stud.roll_no<<"\t\t"<<stud.name<<"\t"<<stud.marks<<"\n";
 }
 ```
+[Code Link](https://repl.it/@Siddharthsing13/Program-3#main.cpp)
+
 ## Program 4:
 Basically struct is used to define a structure. But when we want to use it we have to use the struct keyword in C++. If we use the typedef keyword, then a new name, we can use the struct by that name, without writing the struct keyword.
 
