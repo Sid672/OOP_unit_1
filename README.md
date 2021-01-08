@@ -193,6 +193,7 @@ int main()
   }
   //loop for output:
   cout<<"By method 1:\n";
+  cout<<"array is {10, 20, 30, 40, 50}\n";
   for (int i = 0; i < 5; i++)
   {
     cout<<a[i]<<" ";
@@ -206,6 +207,8 @@ int main()
   return 0;
 }
 ```
+[Code Link](https://repl.it/@Siddharthsing13/Program-6#main.cpp)
+
 ## Program 7:
 ![](https://media.giphy.com/media/3o6MbmXIt1qUsNzfu8/giphy.gif)
 ![](https://www.mathsisfun.com/algebra/images/matrix-addition.gif)
