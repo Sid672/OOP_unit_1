@@ -266,6 +266,8 @@ int main()
   return 0;
 }
 ```
+[Code Link](https://repl.it/@Siddharthsing13/Program-7#main.cpp)
+
 ## Program 8:
 ![](https://media.giphy.com/media/odhu1upQGmmNq/giphy.gif)
 ![](https://d2h0cx97tjks2p.cloudfront.net/blogs/wp-content/uploads/sites/2/2019/06/Syntax-of-C-Class.jpg)
@@ -305,6 +307,7 @@ int main()
   return 0;
 }
 ```
+[Code Link]()
 ## Program 9:
 ![](https://media.giphy.com/media/7yQgwmG4jmDOl0QrRa/giphy.gif)
 ```C++
