@@ -307,7 +307,7 @@ int main()
   return 0;
 }
 ```
-[Code Link]()
+[Code Link](https://repl.it/@Siddharthsing13/Program-8#main.cpp)
 ## Program 9:
 ![](https://media.giphy.com/media/7yQgwmG4jmDOl0QrRa/giphy.gif)
 ```C++
