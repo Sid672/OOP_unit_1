@@ -353,6 +353,8 @@ int main()
   return 0;
 }
 ```
+[Code Link](https://repl.it/@Siddharthsing13/Program-9#main.cpp)
+
 ## Program 10:
 ![](https://media.giphy.com/media/3oEjI4MMUuv9TZwXCM/giphy.gif)
 ```c++
