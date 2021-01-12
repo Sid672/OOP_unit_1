@@ -411,3 +411,40 @@ int main()
 
 ![](https://media.giphy.com/media/6jvpwSCrCzsOc/giphy.gif)
 
+```C++
+/* Program to implement Bank account class */
+#include<iostream>
+using namespace std;
+class BankAccount
+{
+  //data members
+  int AccNo;
+  double balance;
+
+  public:
+  //Member functions
+  void getAccDetails()
+  {
+    cout<<"\n Enter the Account Number: ";
+    cin>>AccNo;
+    cout<<"\n Enter the Balance Amount: ";
+    cin>>balance;
+  }
+
+  void DisplayAccDetails()
+  {
+    cout<<"\nAccount Number: "<<AccNo;
+    cout<<"\nBalance Account: "<<balance<<endl;
+  }
+};
+
+int main()
+{
+  BankAccount obj;
+  obj.getAccDetails();
+  cout<<"\nAccount details are: "<<endl;
+  obj.DisplayAccDetails();
+  return 0;
+}
+```
+
