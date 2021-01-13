@@ -449,3 +449,7 @@ int main()
 ```
 [Code Link](https://repl.it/@Siddharthsing13/Program-11#main.cpp)
 
+# Program 12:
+
+![](https://media.giphy.com/media/gKm89M79WdYIpAu1p4/giphy.gif)
+
