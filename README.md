@@ -455,4 +455,38 @@ int main()
 
 GIF represent function is outside of class.
 
+```C++
+/*Program that uses a class where the member functions are defined outside a class*/
+#include<iostream>
+using namespace std;
+class Test
+{
+  private:
+    int a, b, c;
+  public:
+     int Addition(int, int);
+     void Display();
+};
+
+//Definition of class outside of class
+int Test::Addition(int a, int b)
+{
+  c = a + b;
+  return c;
+}
+
+void Test::Display()
+{
+  cout<<"The sum is: "<<c<<"\n";
+}
+
+int main()
+{
+  Test obj;
+  obj.Addition(10,20);
+  obj.Display();
+  return 0;
+}
+```
+
 
