@@ -451,5 +451,8 @@ int main()
 
 # Program 12:
 
-![](https://media.giphy.com/media/gKm89M79WdYIpAu1p4/giphy.gif)
+![](https://media.giphy.com/media/j1sDNjOGZCh4uWkjDQ/giphy.gif)
+
+GIF represent function is outside of class.
+
 
