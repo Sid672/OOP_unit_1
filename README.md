@@ -490,4 +490,54 @@ int main()
 ```
 [Code Link](https://repl.it/@Siddharthsing13/Program-12#main.cpp)
 
+# Program 13:
+
+![](https://media.giphy.com/media/fsOmOmfoYXnwY/giphy.gif)
+
+Gif used for header file.
+
+## Test.h
+```C++
+class Test
+{
+   private:
+     double a, b, c;
+   public:
+     void Get_data(double a, double b);
+     double Addition();
+};
+```
+## Implementation.cpp
+```C++
+#include <iostream>
+#include "Test.h"
+using namespace std;
+
+void Test::Get_data(double x, double y)
+{
+  a = x;
+  b = y;
+}
+double Test::Addition()
+{
+  c = a + b;
+  return c;
+}
+```
+## main.cpp
+```C++
+#include <iostream>
+#include "Test.h"
+using namespace std;
+
+int main() {
+  Test obj;
+  obj.Get_data(10, 20);
+  cout<<"The Addition is: "<<obj.Addition()<<endl;
+  return 0;
+}
+```
+
+
+
 
