@@ -542,3 +542,28 @@ int main() {
 # Program 14
 
 ![](https://media.giphy.com/media/xTiTnhnS1kQKfgpAHK/giphy.gif)
+
+```C++
+/* Program based on function:
+Passing nothing and returning*/
+#include<iostream>
+using namespace std;
+
+void sum()
+{
+  int a, b, c;
+  cout<<"\n Enter two numbers: ";
+  cin>>a>>b;
+  c = a + b;
+  cout<<"\n The Addition of two numbers is "<<c;
+}
+
+int main()
+{
+  //function
+  sum();
+  cout<<endl;
+  return 0;
+}
+```
+[Code Link](https://repl.it/@Siddharthsing13/Program-14#main.cpp)
