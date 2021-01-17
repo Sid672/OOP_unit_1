@@ -545,7 +545,7 @@ int main() {
 
 ```C++
 /* Program based on function:
-Passing nothing and returning*/
+Passing nothing and returning nothing*/
 #include<iostream>
 using namespace std;
 
@@ -567,3 +567,8 @@ int main()
 }
 ```
 [Code Link](https://repl.it/@Siddharthsing13/Program-14#main.cpp)
+
+# Program 15
+
+![](https://media.giphy.com/media/TIiOPN3KItlm6jIg5U/giphy.gif)
+
