@@ -572,3 +572,28 @@ int main()
 
 ![](https://media.giphy.com/media/TIiOPN3KItlm6jIg5U/giphy.gif)
 
+```C++
+/*Program based on function:
+Passing parameter and returning nothing */
+//Call by value
+
+#include<iostream>
+using namespace std;
+
+void sum (int x, int y)
+{
+  int c;
+  c = x + y;
+  cout<<"\n The Addition is: "<<c<<endl;
+}
+
+int main()
+{
+  int a, b;
+  cout<<"\n Enter the two numbers: ";
+  cin>>a>>b;
+  sum(a, b);
+  return 0;
+}
+```
+[Code Link](https://repl.it/@Siddharthsing13/Program-15#main.cpp)
