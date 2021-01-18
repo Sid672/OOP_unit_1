@@ -600,6 +600,8 @@ int main()
 
 # Program 16
 
+![](https://media.giphy.com/media/l3vRmLrL8MfD9CIkU/giphy.gif)
+
 ```C++
 /*Program based on function:
 Passing parameter and returning nothing */
