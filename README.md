@@ -597,3 +597,31 @@ int main()
 }
 ```
 [Code Link](https://repl.it/@Siddharthsing13/Program-15#main.cpp)
+
+# Program 16
+
+```C++
+/*Program based on function:
+Passing parameter and returning nothing */
+//Call by Reference
+
+#include<iostream>
+using namespace std;
+
+void sum(int *x, int *y)
+{
+  int c;
+  c = *x + *y;
+  cout<<"The addition of two numbers is: "<<c<<"\n";
+}
+
+int main()
+{
+  int a, b;
+  void sum(int *, int *);
+  cout<<"\nEnter the two numbers: ";
+  cin>>a>>b;
+  sum(&a, &b);
+  return 0;
+}
+```
