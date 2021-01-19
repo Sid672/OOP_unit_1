@@ -628,3 +628,30 @@ int main()
 }
 ```
 [Code Link](https://repl.it/@Siddharthsing13/Program-16#main.cpp)
+
+# Program 17
+
+```C++
+/*Program based on function: 
+Passing the parameters and Returning from the function */
+
+#include<iostream>
+using namespace std;
+
+int sum(int a, int b)
+{
+  int c = a + b;
+  return c;
+}
+
+int main()
+{
+  int a, b, c;
+  int sum(int, int);
+  cout<<"\nEnter the two numbers: ";
+  cin>>a;
+  cin>>b;
+  c = sum(a, b);
+  cout<<"\nThe Addition is = "<<c<<"\n";
+}
+```
