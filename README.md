@@ -631,6 +631,8 @@ int main()
 
 # Program 17
 
+![](https://media.giphy.com/media/LPemN8PSiCNyXQ1wxs/giphy.gif)
+
 ```C++
 /*Program based on function: 
 Passing the parameters and Returning from the function */
