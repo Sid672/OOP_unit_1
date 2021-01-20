@@ -658,3 +658,10 @@ int main()
 }
 ```
 [Code Link](https://repl.it/@Siddharthsing13/Program-17#main.cpp)
+
+# Program 18
+
+![](https://media.giphy.com/media/9fclu64Xq0guY/giphy.gif)
+
+```C++
+```
