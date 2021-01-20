@@ -664,4 +664,61 @@ int main()
 ![](https://media.giphy.com/media/9fclu64Xq0guY/giphy.gif)
 
 ```C++
+/*Program to get trainno., destination, distace
+and diplay it */
+#include<iostream>
+#include<fstream>
+using namespace std;
+
+class TRAIN
+{
+  //private and procted both can be used. 
+  protected:
+        int trainno;
+        //here , i assume that length char is less than 30 
+        char dest[30];
+        float distance;
+
+  public:
+       void get()
+       {
+         cout<<"\nEnter train number: ";
+         cin>>trainno;
+         cout<<"\nEnter destination: ";
+         cin>>dest;
+         cout<<"\nEnter distance: ";
+         cin>>distance;
+       }
+
+       void show()
+       {
+         ifstream in_obj;
+         in_obj.open("test.dat", ios::binary);
+         in_obj.read((char*)this, sizeof(TRAIN));
+
+         cout<<"\nTrain no.:"<<trainno;
+         cout<<"\nDestination: "<<dest;
+         cout<<"\nDistance: "<<distance;
+       }
+
+       void put()
+       {
+         ofstream out_obj;
+         out_obj.open("test.dat", ios::app | ios::binary);
+         out_obj.write((char*)this,sizeof(TRAIN));
+       } 
+};
+ 
+int main()
+{
+  TRAIN obj;
+  cout<<"\nEnter the Record: ";
+  obj.get();
+  cout<<"\nWriting the Record...";
+  obj.put();
+  cout<<"\nThe Record is: ";
+  obj.show();
+  cout<<"\n";
+  return 0;
+}
 ```
