@@ -309,6 +309,8 @@ int main()
 ```
 [Code Link](https://repl.it/@Siddharthsing13/Program-8#main.cpp)
 ## Program 9:
+Simple program to find largest number from user input.
+
 ![](https://media.giphy.com/media/7yQgwmG4jmDOl0QrRa/giphy.gif)
 ```C++
 /*Program to check the largest number*/
